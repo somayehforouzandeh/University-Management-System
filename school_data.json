@@ -1,0 +1,99 @@
+{
+  "users": {
+    "admin": {
+      "password": "admin",
+      "role": "admin"
+    }
+  },
+  "teachers": {
+    "ayli": {
+      "code": "01",
+      "name": "ayli",
+      "lname": "",
+      "password": "123"
+    },
+    "mahmod": {
+      "code": "02",
+      "name": "mahmod",
+      "lname": "",
+      "password": "123"
+    },
+    "kiyani": {
+      "name": "04",
+      "lname": "kiyani",
+      "password": "123"
+    },
+    "ALI": {
+      "name": "Ali",
+      "lname": "Mohamadi",
+      "password": "123"
+    }
+  },
+  "students": {
+    "arash": {
+      "code": "01",
+      "name": "arash",
+      "lname": "",
+      "password": "123"
+    },
+    "syavash": {
+      "code": "02",
+      "name": "syavash",
+      "lname": "",
+      "password": "123"
+    },
+    "korosh": {
+      "code": "03",
+      "name": "korosh",
+      "lname": "",
+      "password": "123"
+    },
+    "Arash": {
+      "code": "40012015",
+      "name": "Arash",
+      "lname": "Ahmadi",
+      "password": "123"
+    }
+  },
+  "courses": {
+    "01": {
+      "name": "paython",
+      "unit": "1"
+    },
+    "02": {
+      "name": "sql",
+      "unit": "2"
+    },
+    "03": {
+      "name": "excel",
+      "unit": "2"
+    }
+  },
+  "assignments": {
+    "01": "ALI",
+    "02": "mahmod",
+    "03": "kiyani"
+  },
+  "grades": {
+    "02": {
+      "arash": "20.0"
+    },
+    "03": {
+      "syavash": "10.0"
+    },
+    "01": {
+      "arash": "17.0",
+      "syavash": "12.0"
+    }
+  },
+  "student_selections": {
+    "arash": [
+      "01",
+      "02"
+    ],
+    "syavash": [
+      "01",
+      "03"
+    ]
+  }
+}
