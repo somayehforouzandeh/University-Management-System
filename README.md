@@ -1,210 +1,246 @@
+<img src="Assets/university-management-system-banner.png" width="100%" />
+
 # 🎓 University Management System
 
-A desktop **University Management System** developed with **Python** and **Tkinter** for managing students, teachers, courses, grading, and academic report cards with PDF generation.
+A Python-based desktop application for managing university student information, courses, grades, and academic reports.
+
+This project demonstrates practical implementation of **Python programming, GUI development, data management, and report generation** in an academic management environment.
+
 
 ---
 
-## 📌 Overview
+# 📌 Project Overview
 
-This project simulates a real university management environment where administrators, teachers, and students have different roles and permissions.
+The **University Management System** is designed to simplify academic data management by providing an organized platform for handling:
 
-The system includes course registration, instructor assignment, grade management, report card generation, and PDF export.
+- 👨‍🎓 Student information
+- 📚 Course registration
+- 📝 Grade management
+- 📊 Academic reports
+- 📄 PDF transcript generation
 
----
 
-## ✨ Features
+The application provides a user-friendly interface and stores academic data using structured JSON files.
 
-### 👨‍💼 Administrator
-
-- Register Teachers
-- Register Students
-- Register Courses
-- Assign Courses to Teachers
-- Delete Teachers
-- Delete Students
-- Delete Courses
 
 ---
 
-### 👨‍🏫 Teacher
+# ✨ Features
 
-- View Assigned Courses
-- Enter Student Grades
-- Update Grades
-- View Grade Reports
+
+## 🔐 Login System
+
+- User authentication
+- Secure access to the application
+
+
+## 👨‍💼 Student Management
+
+- Add student information
+- Edit student records
+- Search student data
+- Manage academic profiles
+
+
+## 📚 Course Registration
+
+- Register courses for students
+- Manage course information
+- Track enrolled courses
+
+
+## 📝 Grade Management
+
+- Enter student grades
+- Calculate academic results
+- Monitor student performance
+
+
+## 🎓 Report Card Generation
+
+- Generate academic transcripts
+- Display student performance
+- Create printable reports
+
+
+## 📄 PDF Export
+
+- Generate PDF academic reports
+- Professional formatted documents
+
 
 ---
 
-### 👨‍🎓 Student
+# 🛠 Technologies Used
 
-- Login
-- Course Registration
-- View Report Card
-- Calculate GPA
-- Export Professional PDF Report Card
 
----
+| Technology | Purpose |
+|---|---|
+| 🐍 Python | Core Programming Language |
+| 🖥 Tkinter | Graphical User Interface |
+| 📂 JSON | Data Storage Management |
+| 📄 ReportLab | PDF Report Generation |
+| 🧩 Object-Oriented Programming | Application Structure |
 
-## 🛠 Technologies
-
-| Technology | Description |
-|------------|-------------|
-| Python | Core Programming Language |
-| Tkinter | Desktop GUI |
-| ReportLab | PDF Generation |
-| JSON | Data Storage |
-| Jdatetime | Persian Date |
-| Arabic Reshaper | Persian Text Rendering |
-| Python-Bidi | RTL Support |
-
----
-
-# 📂 Project Structure
-
-```text
-University-Management-System
-│
-├── Assets
-│   └── Banner.png
-│
-├── Fonts
-│   └── Vazirmatn-Regular.ttf
-│
-├── Screenshots
-│   ├── 01-login.png
-│   ├── 02-admin-panel.png
-│   ├── 03-student-panel.png
-│   ├── 04-course-registration.png
-│   ├── 05-course-assignment.png
-│   ├── 06-grade-management.png
-│   ├── 07-report-card.png
-│   └── 08-pdf-report.png
-│
-├── student_management_system.py
-├── requirements.txt
-├── school_data.json
-└── README.md
-```
 
 ---
 
 # 📸 Screenshots
 
-## 🔐 Login Page
 
-![](Screenshots/01-login.png)
+## 🔐 Login
 
----
+<p align="center">
+<img src="Screenshots/login.png" width="900">
+</p>
 
-## 👨‍💼 Administrator Panel
-
-![](Screenshots/02-admin-panel.png)
 
 ---
 
-## 👨‍🎓 Student Panel
 
-![](Screenshots/03-student-panel.png)
+## 👨‍💼 Admin Dashboard
+
+<p align="center">
+<img src="Screenshots/admin-panel.png" width="900">
+</p>
+
 
 ---
+
 
 ## 📚 Course Registration
 
-![](Screenshots/04-course-registration.png)
+<p align="center">
+<img src="Screenshots/course-registration.png" width="900">
+</p>
+
 
 ---
 
-## 👨‍🏫 Course Assignment
-
-![](Screenshots/05-course-assignment.png)
-
----
 
 ## 📝 Grade Management
 
-![](Screenshots/06-grade-management.png)
+<p align="center">
+<img src="Screenshots/grade-management.png" width="900">
+</p>
+
 
 ---
 
-## 📋 Student Report Card
 
-![](Screenshots/07-report-card.png)
+## 🎓 Student Report Card
 
----
+<p align="center">
+<img src="Screenshots/report-card.png" width="900">
+</p>
 
-## 📄 Generated PDF Report
-
-![](Screenshots/08-pdf-report.png)
 
 ---
 
-# 🚀 Installation
 
-Clone the repository
+## 📄 PDF Academic Transcript
 
-```bash
-git clone https://github.com/somayehforouzandeh/University-Management-System.git
+<p align="center">
+<img src="Screenshots/pdf-report.png" width="700">
+</p>
+
+
+---
+
+# 🏗 Project Structure
+
+
+```
+Student-Management-System/
+│
+├── Assets/
+│   └── university-management-system-banner.png
+│
+├── Fonts/
+│
+├── Screenshots/
+│   ├── login.png
+│   ├── admin-panel.png
+│   ├── course-registration.png
+│   ├── grade-management.png
+│   ├── report-card.png
+│   └── pdf-report.png
+│
+├── school_data.json
+├── student_management_system.py
+├── requirements.txt
+├── LICENSE
+└── README.md
 ```
 
-Install dependencies
+
+---
+
+# 🚀 Installation & Run
+
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/somayehforouzandeh/Student-Management-System.git
+```
+
+
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the project
+
+### 3. Run the application
 
 ```bash
 python student_management_system.py
 ```
 
----
-
-# 🎯 Future Improvements
-
-- SQLite Database
-- Role-based Authentication
-- Dashboard & Statistics
-- Power BI Integration
-- Attendance Management
-- Student Transcript Analysis
-- Charts & Analytics
-- Responsive UI
-- Dark Mode
 
 ---
 
-# 📈 Skills Demonstrated
+# 🔮 Future Improvements
 
-- Python Programming
-- Object-Oriented Programming
-- GUI Development
-- Data Management
-- PDF Reporting
-- Desktop Application Development
-- Software Design
-- Business Logic Implementation
+- 🔐 Authentication with encrypted passwords
+- 🗄 SQLite / PostgreSQL database integration
+- 👤 Student profile photos
+- 📊 Dashboard and analytics
+- 📈 Charts and GPA statistics
+- 📤 Export reports to Excel
+- 👥 Multi-user system
+- 🌙 Dark Mode
+
 
 ---
 
-# 📄 License
+# 🎯 Learning Outcomes
+
+This project demonstrates practical implementation of:
+
+
+✔ Object-Oriented Programming (OOP)  
+✔ Tkinter GUI Development  
+✔ JSON Data Management  
+✔ PDF Generation using ReportLab  
+✔ CRUD Operations  
+✔ Academic Report Generation  
+✔ Software Project Organization  
+
+
+---
+
+# 📜 License
 
 This project is licensed under the MIT License.
 
+
 ---
 
-## 👩‍💻 Author
+# ⭐ If you like this project
 
-**Somayeh Forouzandeh**
+Please consider giving this repository a ⭐ on GitHub.
 
-Industrial Engineer (M.Sc. Systems & Productivity)
-
-Business Intelligence • Data Analytics • Python • Process Improvement
-
-GitHub:
-
-https://github.com/somayehforouzandeh
-
-LinkedIn:
-
-https://www.linkedin.com/in/somayeh-forouzandeh
+Your feedback and suggestions are welcome.
